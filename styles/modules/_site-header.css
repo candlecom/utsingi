@@ -1,0 +1,21 @@
+.site-header {
+  border-bottom: 2px solid #999;
+}
+
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+  display: block;
+  padding: 10px 18px;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+.site-header nav ul li a:hover {
+  background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+  background-color: #006ec3;
+  color: #FFF;
+}

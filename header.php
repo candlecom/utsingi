@@ -13,7 +13,13 @@
     <!-- site-header -->
     <header class="site-header">
       <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></h1></a>
-      <h4><?php bloginfo('description'); ?></h4>
+      <h4><?php bloginfo('description'); ?><?php if (is_page(12)) { ?>
+      <div class="test">- Thank you for visiting our webpage! Thank you for visiting our webpage! Thank you for visiting our webpage!</div>
+
+        <?php
+      } ?></h4>
+
+
 
       <nav class="site-nav">
 
@@ -30,5 +36,11 @@
         <?php wp_nav_menu( $args ); ?>
 
       </nav>
+
+      <h4><?php if (is_page(12)) { ?>
+      <div class="test">Thank you for visiting our webpage! Thank you for visiting our webpage! Thank you for visiting our webpage!</div>
+
+        <?php
+      } ?></h4>
 
     </header><!-- /site-header -->

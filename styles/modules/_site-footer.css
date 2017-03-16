@@ -1,0 +1,15 @@
+/* Footer */
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+}
+
+
+
+/* Footer Menu */
+.site-footer nav ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-right: 1px dotted #BBB;
+}
