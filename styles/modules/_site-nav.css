@@ -12,3 +12,39 @@
   list-style: none;
   float: left;
 }
+
+
+/* Children links */
+nav.children-links .clearfix :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.children-links ul {
+  float: left;
+}
+
+.children-links {
+  margin-bottom: 20px;
+  font-size: 80%;
+}
+
+.children-links li {
+  margin-right: 20px;
+}
+
+.children-links .parent-link {
+  float: left;
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #DDD;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.children-links .parent-link a:link,
+children-links .parent-link a:visited {
+  color: #333;
+}

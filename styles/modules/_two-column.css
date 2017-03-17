@@ -1,0 +1,30 @@
+/* Two column layout */
+
+div.right-column {
+  width: 70%;
+  float: left;
+}
+
+div.left-column {
+  width: 30%;
+  float: left;
+
+}
+
+
+div.info-box {
+
+  width: 30%;
+  float: right;
+  margin-left: 0 0 30px 30px;
+  padding: 20px;
+  background-color: #EEE;
+}
+
+div.info-box {
+  margin-bottom: 6px;
+}
+
+div.info-box p {
+  font-size: 85%;
+}

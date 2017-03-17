@@ -5,3 +5,13 @@ article.post {
 article.post:last-of-type {
   border-bottom: none;
 }
+
+.article {
+  display: block;
+  width: 100%;
+}
+/*article.clearfix :after {
+  content: "";
+  display: table;
+  clear: both;
+}*/

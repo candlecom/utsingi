@@ -12,6 +12,8 @@ Version: 1.0
 @import "styles/base/_global";
 @import "styles/modules/_catalogue";
 @import "styles/modules/_container";
+@import "styles/modules/_two-column";
+@import "styles/modules/_article";
 
 /*body {
   font-family: Arial, sans-serif;
