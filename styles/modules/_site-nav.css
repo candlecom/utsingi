@@ -30,6 +30,10 @@ nav.children-links .clearfix :after {
   margin-bottom: 20px;
   font-size: 80%;
 }
+.children-links a:link,
+.children-links a:visited {
+  text-decoration: none;
+}
 
 .children-links li {
   margin-right: 20px;
@@ -45,6 +49,13 @@ nav.children-links .clearfix :after {
 }
 
 .children-links .parent-link a:link,
-children-links .parent-link a:visited {
+.children-links .parent-link a:visited {
   color: #333;
+}
+
+.children-links .current_page_item a:link,
+.children-links .current_page_item a:visited {
+  border-bottom: 1px solid #DDD;
+  color: #333;
+  cursor: default;
 }

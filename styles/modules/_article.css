@@ -15,3 +15,21 @@ article.post:last-of-type {
   display: table;
   clear: both;
 }*/
+
+article.post h1 {
+  margin-bottom: 0;
+}
+
+article p.post-info {
+  font-size: 87%;
+  color: #999;
+}
+
+article p.post-info {
+  margin-top: 0;
+}
+
+article .post-info a:link,
+article .post-info a:visited {
+  color: #999;
+}

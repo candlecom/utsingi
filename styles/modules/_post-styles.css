@@ -1,0 +1,18 @@
+/* Post styles */
+article.post h2 {
+  margin-bottom: 0;
+}
+
+article.p.post-info {
+  font-size: 87%;
+  color: #999;
+}
+
+article p.post-info {
+
+}
+
+article p.post-info a:link,
+article p.post-info a:visited {
+  color: #999;
+}
