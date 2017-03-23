@@ -15,6 +15,7 @@ Version: 1.0
 @import "styles/modules/_two-column";
 @import "styles/modules/_article";
 @import "styles/modules/_post-styles";
+@import "styles/modules/_image-styles";
 
 /*body {
   font-family: Arial, sans-serif;
